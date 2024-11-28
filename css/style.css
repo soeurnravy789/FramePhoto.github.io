@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box; 
+ }
+ body{
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+     background-image: url(/image/moutain.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 200vh;
+     background-attachment: fixed;
+ }
+ .box1{
+     width: 40%;
+     height: 400px;
+     padding: 25px;
+     background-color: gold;
+ }
+ .img1{
+     display: flex;
+     width: 100%;
+     height: 100%;
+     justify-content: space-between;
+     padding: 7px;
+     background-color: palevioletred;
+ }
+ .box-left,.box-right{
+     width: 48%;
+     height: 100%;
+     background-color: blue;
+ }
+ .box-right{
+     background-color: chartreuse;
+ }
+ .box-left img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     transition: 2s;
+ }
+ .box-right img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     transition: 2s;
+ }
+ img:hover{
+     transform: scale(1.1);
+ }
